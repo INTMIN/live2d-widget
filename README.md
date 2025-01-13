@@ -7,7 +7,6 @@
 ![](https://forthebadge.com/images/badges/powered-by-electricity.svg)
 ![](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
-[English](README.en.md)
 
 ## 特性
 
