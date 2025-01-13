@@ -40,7 +40,7 @@
 | 选项 | 类型 | 默认值 | 说明 |
 | - | - | - | - |
 | `waifuPath` | `string` | `https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.json` | 看板娘资源路径，可自行修改 |
-| `apiPath` | `string` | `https://live2d.fghrsh.net/api/` | API 路径，可选参数 |
+| `apiPath` | `string` | `https://live2d.fghrsh.net/api/` | API 路径，本仓库不使用后端接口 |
 | `cdnPath` | `string` | `https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/` | CDN 路径，可选参数 |
 | `tools` | `string[]` | 见 `autoload.js` | 加载的小工具按钮，可选参数 |
 
