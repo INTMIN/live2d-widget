@@ -7,8 +7,8 @@
   ],
   "layout": {
     "center_x": 0.0,
-    "center_y": 0.0,
-    "width": 2.0
+    "center_y": -0.1,
+    "width": 2
   },
   "motions": {
     "tap": [

@@ -4,6 +4,11 @@
 	"textures":[
 		"Kobayaxi.2048/texture_00.png"
 	],
+	"layout": {
+		"center_x": 0.0,
+		"center_y": -0.08,
+		"width": 2
+	  },
 	"physics":"physics.json",
 	"pose":"pose.json",
 	"project_settings":"Kobayaxi.settings.json",
