@@ -12,7 +12,6 @@ function loadWidget(config) {
             <canvas id="live2d" width="800" height="800"></canvas>
             <div id="waifu-tool"></div>
         </div>`);
-    // https://stackoverflow.com/questions/24148403/trigger-css-transition-on-appended-element
     setTimeout(() => {
         document.getElementById("waifu").style.bottom = 0;
     }, 0);
@@ -49,8 +48,7 @@ function loadWidget(config) {
             const referrer = new URL(document.referrer),
                 domain = referrer.hostname.split(".")[1];
             const domains = {
-                "baidu": "百度",
-                "so": "360搜索",
+                "bing": "BING",
                 "google": "谷歌搜索"
             };
             if (location.hostname === referrer.hostname) return text;
