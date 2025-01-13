@@ -15,13 +15,12 @@
 
 <img src="assets/screenshot-2.png" width="280"><img src="assets/screenshot-3.png" width="280"><img src="assets/screenshot-1.png" width="270">
 
-（注：以上人物模型仅供展示之用，本仓库并不包含任何模型。）
+（注：以上人物模型仅供展示之用，本仓库只有少数几个模型。）
 
 你也可以查看示例网页：
 
-- 在 [米米的博客](https://zhangshuqiao.org) 的左下角可查看效果
-- [demo.html](https://stevenjoezhang.github.io/live2d-widget/demo/demo.html)，展现基础功能
-- [login.html](https://stevenjoezhang.github.io/live2d-widget/demo/login.html)，仿 NPM 的登陆界面
+- 在 [min的博客](https://minbbs.pages.dev) 的左下角可查看效果
+- [demo.html](https://intmin.github.io/live2d-widget/demo/demo.html)，展现基础功能
 
 ## 使用
 
@@ -63,7 +62,7 @@
 要在本地部署本项目的开发测试环境，你需要安装 Node.js 和 npm，然后执行以下命令：
 
 ```bash
-git clone https://github.com/stevenjoezhang/live2d-widget.git
+git clone https://github.com/INTMIN/live2d-widget.git
 npm install
 npm run build
 ```
@@ -108,63 +107,19 @@ https://example.com/path/to/live2d-widget/
 ```
 就可以加载了。
 
-## 鸣谢
-
-<a href="https://www.browserstack.com/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" height="80" srcset="https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780">
-    <source media="(prefers-color-scheme: light)" height="80" srcset="https://live.browserstack.com/images/opensource/browserstack-logo.svg">
-    <img alt="BrowserStack Logo" height="80" src="https://live.browserstack.com/images/opensource/browserstack-logo.svg">
-  </picture>
-</a>
-
-> 感谢 BrowserStack 容许我们在真实的浏览器中测试此项目。  
-> Thanks to [BrowserStack](https://www.browserstack.com/) for providing the infrastructure that allows us to test in real browsers!
-
-<a href="https://www.jsdelivr.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" height="80" srcset="https://raw.githubusercontent.com/jsdelivr/jsdelivr-media/master/white/svg/jsdelivr-logo-horizontal.svg">
-    <source media="(prefers-color-scheme: light)" height="80" srcset="https://raw.githubusercontent.com/jsdelivr/jsdelivr-media/master/default/svg/jsdelivr-logo-horizontal.svg">
-    <img alt="jsDelivr Logo" height="80" src="https://raw.githubusercontent.com/jsdelivr/jsdelivr-media/master/default/svg/jsdelivr-logo-horizontal.svg">
-  </picture>
-</a>
-
-> 感谢 jsDelivr 提供的 CDN 服务。  
-> Thanks jsDelivr for providing public CDN service.
-
-代码自这篇博文魔改而来：  
-https://www.fghrsh.net/post/123.html
-
-感谢 [一言](https://hitokoto.cn) 提供的语句接口。
 
 点击看板娘的纸飞机按钮时，会出现一个彩蛋，这来自于 [WebsiteAsteroids](http://www.websiteasteroids.com)。
 
 ## 更多
 
-更多内容可以参考：  
-https://nocilol.me/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02  
-https://github.com/xiazeyu/live2d-widget.js  
-https://github.com/summerscar/live2dDemo
-
-关于后端 API 模型：  
-https://github.com/xiazeyu/live2d-widget-models  
-https://github.com/xiaoski/live2d_models_collection
-
-除此之外，还有桌面版本：  
-https://github.com/amorist/platelet  
-https://github.com/akiroz/Live2D-Widget  
-https://github.com/zenghongtu/PPet  
-https://github.com/LikeNeko/L2dPetForMac
-
-以及 Wallpaper Engine：  
-https://github.com/guansss/nep-live2d
+此项目原始版本借助了大佬的架子
 
 ## 许可证
 
 Released under the GNU General Public License v3  
 http://www.gnu.org/licenses/gpl-3.0.html
 
-本仓库并不包含任何模型，用作展示的所有 Live2D 模型、图片、动作数据等版权均属于其原作者，仅供研究学习，不得用于商业用途。
+本仓库所有用作展示的所有 Live2D 模型、图片、动作数据等版权均属于其原作者，仅供研究学习，不得用于商业用途。
 
 Live2D 官方网站：  
 https://www.live2d.com/en/  
@@ -181,9 +136,4 @@ https://community.live2d.com/discussion/140/webgl-developer-licence-and-javascri
 
 ## 更新日志
 
-2018年10月31日，由 fghrsh 提供的原 API 停用，请更新至新地址。参考文章：  
-https://www.fghrsh.net/post/170.html
-
-2020年1月1日起，本项目不再依赖于 jQuery。
-
-2022年11月1日起，本项目不再需要用户单独加载 Font Awesome。
+2025 此仓库已经独立开发，不使用后端接口
