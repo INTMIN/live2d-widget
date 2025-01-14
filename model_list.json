@@ -33,22 +33,17 @@
     "benghuai2/xier",
     "benghuai2/delisha",
     "benghuai2/Lita",
+    "benghuai2/himeko",
     "benghuai2/yiselin",
     "benghuai2/Nina",
     "benghuai2/keluoyi",
     "benghuai2/xilin2.1",
-    [
-      "benghuai2/BYC",
-      "benghuai2/himeko",
-      "benghuai2/houraiji",
-      "benghuai2/kaguya",
-      "benghuai2/kika",
-      "benghuai2/Kiro",
-      "benghuai2/mie",
-      "benghuai2/Nindi",
-      "benghuai2/shin",
-      "benghuai2/yazakura"
-    ]
+    "benghuai2/yazakura",
+    "benghuai2/shin",
+    "benghuai2/kika",
+    "benghuai2/houraiji",
+    "benghuai2/Nindi",
+    ["benghuai2/BYC", "benghuai2/kaguya", "benghuai2/Kiro", "benghuai2/mie"]
   ],
   "messages": [
     "来自 Potion Maker 的 Pio 酱 ~",
@@ -63,10 +58,16 @@
     "崩坏学园2角色-希儿",
     "崩坏学园2角色-德丽莎",
     "崩坏学园2角色-丽塔",
+    "崩坏学园2角色-姬子",
     "崩坏学园2角色-伊瑟琳",
     "崩坏学园2角色-妮娜",
     "崩坏学园2角色-克洛伊",
     "崩坏学园2角色-西琳",
+    "崩坏学园2角色-八重樱",
+    "崩坏学园2角色-诗音",
+    "崩坏学园2角色-无色辉火",
+    "崩坏学园2角色-蓬莱寺九霄",
+    "崩坏学园2角色-宁蒂阿波卡利斯",
     "崩坏学园2角色-其他系列"
   ]
 }
