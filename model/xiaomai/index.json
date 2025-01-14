@@ -4,7 +4,7 @@
   "textures": ["umaru2048/texture_00.png"],
   "physics": "physics.json",
   "layout": {
-    "width": 1.5,
+    "width": 1.3,
     "center_x": -0.0507,
     "center_y": -0.089
   },
