@@ -84,7 +84,7 @@
   "physics": "physics.json",
   "project_settings": "embed://111.json",
   "layout": {
-    "image_height": 1060,
+    "image_height": 500,
     "image_center_y": 0.57,
     "head_center_y": 0.25,
     "time_to_max_speed": 0.08,

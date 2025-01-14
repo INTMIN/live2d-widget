@@ -85,7 +85,7 @@
   "project_settings": "embed://111.json",
   "name": "",
   "layout": {
-    "image_height": 1200,
+    "image_height": 500,
     "image_center_y": 0.6,
     "head_center_y": 0.25,
     "time_to_max_speed": 0.08,
