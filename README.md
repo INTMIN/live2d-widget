@@ -14,7 +14,7 @@
 
 <img src="assets/screenshot-2.png" width="280"><img src="assets/screenshot-3.png" width="280"><img src="assets/screenshot-1.png" width="270">
 
-（注：以上人物模型仅供展示之用，本仓库只有少数几个模型。）
+（注：以上人物模型仅供展示之用，本仓库只有少数十几个模型。）
 
 你也可以查看示例网页：
 
@@ -111,7 +111,7 @@ https://example.com/path/to/live2d-widget/
 
 ## 更多
 
-此项目原始版本借助了大佬的架子
+此项目原始版本借助了官方live2d api
 
 ## 许可证
 
