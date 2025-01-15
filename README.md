@@ -1,12 +1,7 @@
-# Live2D Widget
+# 改自大佬的 Live2D Widget
 
-![](https://forthebadge.com/images/badges/built-with-love.svg)
-![](https://forthebadge.com/images/badges/uses-html.svg)
-![](https://forthebadge.com/images/badges/made-with-javascript.svg)
-![](https://forthebadge.com/images/badges/contains-cat-gifs.svg)
-![](https://forthebadge.com/images/badges/powered-by-electricity.svg)
-![](https://forthebadge.com/images/badges/makes-people-smile.svg)
-
+此项目原始版本借助了官方live2d api
+目前项目已经完全独立，后期会把所有方法重构
 
 ## 特性
 
@@ -14,7 +9,7 @@
 
 <img src="assets/screenshot-2.png" width="280"><img src="assets/screenshot-3.png" width="280"><img src="assets/screenshot-1.png" width="270">
 
-（注：以上人物模型仅供展示之用，本仓库只有少数几个模型。）
+（注：以上人物模型仅供展示之用，本仓库只有少数十几个模型。）
 
 你也可以查看示例网页：
 
@@ -25,7 +20,7 @@
 
 如果你是小白，或者只需要最基础的功能，那么只用将这一行代码加入 html 页面的 `head` 或 `body` 中，即可加载看板娘：
 ```xml
-<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<script src="https://intmin.github.io/live2d-widget/autoload.js"></script>
 ```
 添加代码的位置取决于你的网站的构建方式。例如，如果你使用的是 [Hexo](https://hexo.io)，那么需要在主题的模版文件中添加以上代码。对于用各种模版引擎生成的页面，修改方法类似。  
 如果网站启用了 PJAX，由于看板娘不必每页刷新，需要注意将该脚本放到 PJAX 刷新区域之外。
@@ -39,12 +34,14 @@
 
 | 选项 | 类型 | 默认值 | 说明 |
 | - | - | - | - |
-| `waifuPath` | `string` | `https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.json` | 看板娘资源路径，可自行修改 |
+| `waifuPath` | `string` | `https://intmin.github.io/live2d-widget/waifu-tips.json` | 看板娘资源路径，可自行修改 |
 | `apiPath` | `string` | `https://live2d.fghrsh.net/api/` | API 路径，本仓库不使用后端接口 |
-| `cdnPath` | `string` | `https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/` | CDN 路径，可选参数 |
+| `cdnPath` | `string` | `https://intmin.github.io/live2d-widget/` | CDN 路径，可选参数 |
 | `tools` | `string[]` | 见 `autoload.js` | 加载的小工具按钮，可选参数 |
 
-其中，`apiPath` 和 `cdnPath` 两个参数设置其中一项即可。`apiPath` 是后端 API 的 URL，可以自行搭建，并增加模型（需要修改的内容比较多，此处不再赘述），可以参考 [live2d_api](https://github.com/fghrsh/live2d_api)。而 `cdnPath` 则是通过 jsDelivr 这样的 CDN 服务加载资源，更加稳定。
+其中，`apiPath` 和 `cdnPath` 两个参数设置其中一项即可。
+`apiPath` 是后端 API 的 URL，可以自行搭建，并增加模型（需要修改的内容比较多，此处不再赘述，并且本仓库完全废弃后端api接口），需要使用api可以参考 [live2d_api](https://github.com/fghrsh/live2d_api)。
+而 `cdnPath` 则是通过 jsDelivr 这样的 CDN 服务加载资源，更加稳定。
 
 ## 自定义
 
@@ -75,8 +72,9 @@ npm run build
 ### 使用 CDN
 
 要自定义有关内容，可以把这个仓库 Fork 一份，然后把修改后的内容通过 git push 到你的仓库中。这时，使用方法对应地变为
+注意这个是大佬的cdn 只有从大佬那边fork的才会有cdn
 ```xml
-<script src="https://fastly.jsdelivr.net/gh/username/live2d-widget@latest/autoload.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/你的名字/live2d-widget@latest/autoload.js"></script>
 ```
 将此处的 `username` 替换为你的 GitHub 用户名。为了使 CDN 的内容正常刷新，需要创建新的 git tag 并推送至 GitHub 仓库中，否则此处的 `@latest` 仍然指向更新前的文件。此外 CDN 本身存在缓存，因此改动可能需要一定的时间生效。相关文档：
 - [Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
@@ -107,12 +105,6 @@ https://example.com/path/to/live2d-widget/
 就可以加载了。
 
 
-点击看板娘的纸飞机按钮时，会出现一个彩蛋，这来自于 [WebsiteAsteroids](http://www.websiteasteroids.com)。
-
-## 更多
-
-此项目原始版本借助了大佬的架子
-
 ## 许可证
 
 Released under the GNU General Public License v3  
@@ -136,3 +128,6 @@ https://community.live2d.com/discussion/140/webgl-developer-licence-and-javascri
 ## 更新日志
 
 2025 此仓库已经独立开发，不使用后端接口
+
+2025-1-15  该项目已上线微软插件  [一键直达](https://microsoftedge.microsoft.com/addons/detail/djlopbkdflgoldleocilhmkpndfhgdhi)
+
