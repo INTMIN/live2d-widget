@@ -1,4 +1,4 @@
-# Live2D Widget
+# 改自大佬的 Live2D Widget
 
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
 ![](https://forthebadge.com/images/badges/uses-html.svg)
@@ -136,3 +136,6 @@ https://community.live2d.com/discussion/140/webgl-developer-licence-and-javascri
 ## 更新日志
 
 2025 此仓库已经独立开发，不使用后端接口
+
+2025-1-15  该项目已上线微软插件  [一键直达](https://microsoftedge.microsoft.com/addons/detail/djlopbkdflgoldleocilhmkpndfhgdhi)
+
