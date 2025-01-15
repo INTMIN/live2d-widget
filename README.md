@@ -107,23 +107,7 @@ https://example.com/path/to/live2d-widget/
 
 ## 许可证
 
-Released under the GNU General Public License v3  
-http://www.gnu.org/licenses/gpl-3.0.html
-
-本仓库所有用作展示的所有 Live2D 模型、图片、动作数据等版权均属于其原作者，仅供研究学习，不得用于商业用途。
-
-Live2D 官方网站：  
-https://www.live2d.com/en/  
-https://live2d.github.io
-
-Live2D Cubism Core は Live2D Proprietary Software License で提供しています。  
-https://www.live2d.com/eula/live2d-proprietary-software-license-agreement_en.html  
-Live2D Cubism Components は Live2D Open Software License で提供しています。  
-http://www.live2d.com/eula/live2d-open-software-license-agreement_en.html
-
-> The terms and conditions do prohibit modification, but obfuscating in `live2d.min.js` would not be considered illegal modification.
-
-https://community.live2d.com/discussion/140/webgl-developer-licence-and-javascript-question
+Apache License 2.0 [License](https://github.com/INTMIN/live2d-widget?tab=Apache-2.0-1-ov-file#Apache-2.0-1-ov-file)
 
 ## 更新日志
 
