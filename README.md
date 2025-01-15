@@ -34,9 +34,9 @@
 
 | 选项 | 类型 | 默认值 | 说明 |
 | - | - | - | - |
-| `waifuPath` | `string` | `https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.json` | 看板娘资源路径，可自行修改 |
+| `waifuPath` | `string` | `https://intmin.github.io/live2d-widget/waifu-tips.json` | 看板娘资源路径，可自行修改 |
 | `apiPath` | `string` | `https://live2d.fghrsh.net/api/` | API 路径，本仓库不使用后端接口 |
-| `cdnPath` | `string` | `https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/` | CDN 路径，可选参数 |
+| `cdnPath` | `string` | `https://intmin.github.io/live2d-widget/` | CDN 路径，可选参数 |
 | `tools` | `string[]` | 见 `autoload.js` | 加载的小工具按钮，可选参数 |
 
 其中，`apiPath` 和 `cdnPath` 两个参数设置其中一项即可。
@@ -71,8 +71,8 @@ npm run build
 
 ### 使用 CDN
 
-这个是大佬的cdn 只有从大佬那边fork的才会有cdn
 要自定义有关内容，可以把这个仓库 Fork 一份，然后把修改后的内容通过 git push 到你的仓库中。这时，使用方法对应地变为
+注意这个是大佬的cdn 只有从大佬那边fork的才会有cdn
 ```xml
 <script src="https://fastly.jsdelivr.net/gh/你的名字/live2d-widget@latest/autoload.js"></script>
 ```
