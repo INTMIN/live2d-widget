@@ -108,6 +108,7 @@
   "name": "",
   "layout": {
     "center_y": -0.131,
+    "center_x": 0.15,
     "head_center_y": 0.25,
     "time_to_max_speed": 0.08,
     "face_max_angle": 20,
