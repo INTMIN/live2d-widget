@@ -85,6 +85,7 @@
   "project_settings": "embed://111.json",
   "layout": {
     "center_y": -0.27,
+    "center_x": 0.15,
     "time_to_max_speed": 0.08,
     "face_max_angle": 20,
     "width": 1.2
